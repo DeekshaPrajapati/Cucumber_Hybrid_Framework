@@ -1,0 +1,488 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-14T19:03:24.374Z",
+        "line": 5,
+        "name": "Verify  registration  form with  valid TestData",
+        "description": "",
+        "id": "verify-registration-functionality;verify--registration--form-with--valid-testdata",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3201949400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open browzer",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_open_browzer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10356888000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open url",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_open_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36006100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate url open",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.validate_url_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48012500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on maxmize icon",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_click_on_maxmize_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6181765600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on registerLink",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.User_click_on_registerLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19002700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should redirect to registrationPage",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.User_should_redirect_to_registrationPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153159600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter name",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_enter_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138029200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter mobileNo",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_enter_mobile_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147936500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter email",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.User_enter_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107597100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter patientage",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_enter_patientage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194254800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select country",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_select_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104030100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter password",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104974700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter confirmPassword",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_enter_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111386900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter medicalProblem",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_enter_medical_problem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11001500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "scrollbaar  down",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.scrollbaar_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1895499400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on RegisterBtn",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.user_click_on_RegisterBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78025600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "validate loginRed button present on the page",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.validate_loginRed_button_present_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6355500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "page should redirected to confirmationPage",
+            "match": {
+              "location": "stepDefinations.RegistrationExcution.page_should_redirected_to_confirmation_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mustRun"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Registration Functionality",
+    "description": "",
+    "id": "verify-registration-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/features/Registration.feature",
+    "tags": [
+      {
+        "name": "@mustRun",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 964254000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login button",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148027500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User entered  emaili Id",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_entered_emaili_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105024400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User entered Paswword",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_entered_paswword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000211700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on sign in button",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T19:03:47.471Z",
+        "line": 12,
+        "name": "Verify login with  valid credentials",
+        "description": "",
+        "id": "verify-login-and-logout;verify-login-with--valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: The following asserts failed:\n\texpected [https://talktotreat.com/Home/Login] but found [https://talktotreat.com/]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)\r\n\tat com.talktotreat.base.ValidateMethods.validateUrl(ValidateMethods.java:25)\r\n\tat stepDefinations.LoginExcution.validate_login_page_url(LoginExcution.java:31)\r\n\tat ✽.validate login page url(file:///C:/Users/Brain/OneDrive%20-%20Brain%20Above%20InfoSol%20Pvt.%20Ltd/Desktop/maha/HealthCareCucumberFrameworkFirst/src/test/resource/features/login.feature:13)\r\n",
+              "duration": 27141400,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "validate login page url",
+            "match": {
+              "location": "stepDefinations.LoginExcution.validate_login_page_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "validate home page url",
+            "match": {
+              "location": "stepDefinations.LoginExcution.validate_home_page_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "validate text Treament package",
+            "match": {
+              "location": "stepDefinations.LoginExcution.validate_text_Treament_package()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mustRun"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 153388400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login button",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.name: EmailId\u0027 (tried for 0 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat com.talktotreat.base.JavaBase.sendkeys(JavaBase.java:104)\r\n\tat com.talktotreat.pages.LoginPage.enter_EmaiId(LoginPage.java:63)\r\n\tat stepDefinations.LoginExcution.user_entered_emaili_id(LoginExcution.java:37)\r\n\tat ✽.User entered  emaili Id(file:///C:/Users/Brain/OneDrive%20-%20Brain%20Above%20InfoSol%20Pvt.%20Ltd/Desktop/maha/HealthCareCucumberFrameworkFirst/src/test/resource/features/login.feature:7)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027EmailId\u0027]\"}\n  (Session info: chrome\u003d105.0.5195.125)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027BAIPL-PC-HR2\u0027, ip: \u0027192.168.1.19\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\Brain\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 66941c06fe777772455b72394960b571\n*** Element info: {Using\u003dname, value\u003dEmailId}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:395)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\r\n\tat com.talktotreat.base.JavaBase.sendkeys(JavaBase.java:104)\r\n\tat com.talktotreat.pages.LoginPage.enter_EmaiId(LoginPage.java:63)\r\n\tat stepDefinations.LoginExcution.user_entered_emaili_id(LoginExcution.java:37)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:71)\r\n\tat org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:56)\r\n\tat org.testng.TestRunner$1.run(TestRunner.java:679)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.runJUnitWorkers(TestRunner.java:885)\r\n\tat org.testng.TestRunner.privateRunJUnit(TestRunner.java:708)\r\n\tat org.testng.TestRunner.run(TestRunner.java:599)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:433)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)\r\n",
+              "duration": 79011500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User entered  emaili Id",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_entered_emaili_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User entered Paswword",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_entered_paswword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click on sign in button",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T19:03:50.744Z",
+        "line": 18,
+        "name": "Verify doctor appoitment functionality",
+        "description": "",
+        "id": "verify-login-and-logout;verify-doctor-appoitment-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 276300,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click on doctor Link",
+            "match": {
+              "location": "stepDefinations.LoginExcution.user_click_on_doctor_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345600,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Scroll the page",
+            "match": {
+              "location": "stepDefinations.LoginExcution.scroll_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mustRun"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Login and Logout",
+    "description": "",
+    "id": "verify-login-and-logout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/features/login.feature",
+    "tags": [
+      {
+        "name": "@mustRun",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
