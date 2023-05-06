@@ -27,8 +27,8 @@ Feature: Registration Functionality
     And user click on a register link
 
     Examples: 
-      | FirstName | LastName  | Email               | telephoneno | password | confirmpass |
-      | diksha    | prajapati | diksha1900@gmail.com |  9856474523 |     1234 |        1234 |
+      | FirstName | LastName  | Email                | telephoneno | password | confirmpass |
+      | diksha    | prajapati | diksha1912@gmail.com |  9856474523 |     1234 |        1234 |
 
   @Integration
   Scenario Outline: User creates a duplicate account
@@ -46,7 +46,7 @@ Feature: Registration Functionality
       | FirstName | LastName  | Email               | telephoneno | password | confirmpass |
       | diksha    | prajapati | diksha012@gmail.com |  9856474523 |     1234 |        1234 |
 
-  @Smoke
+  @Sanity
   Scenario: User creates an account without filling any details
     Given user again click on a account button
     When user click on a register link

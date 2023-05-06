@@ -11,7 +11,6 @@ import org.testng.asserts.SoftAssert;
 
 import com.shopingstore.util.PropertyReader;
 
-
 public class ValidateMethods extends JavaBase {
 	public static SoftAssert soft;
 
@@ -56,10 +55,6 @@ public class ValidateMethods extends JavaBase {
 		System.out.println(trueOrFalse);
 		soft.assertTrue(checkkBox.isSelected());
 		soft.assertAll();
-	}
-
-	public static void validate_ElementPresent() {
-
 	}
 
 	public void curretnUrl() {

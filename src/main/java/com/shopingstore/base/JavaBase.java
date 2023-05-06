@@ -26,45 +26,41 @@ public class JavaBase {
 	public static String browzersave;
 	public static JavascriptExecutor js;
 
-
 	// singleton
 	public static WebDriver getDriver() {
-   	 if(driver == null)
-   	 {
-   		browzersave = PropertyReader.getConfigProperty("BrowserName"); // calling browzename
-   		
-   				if (browzersave.equalsIgnoreCase("chrome")) {
-   					WebDriverManager.chromedriver().setup();
-   					driver = new ChromeDriver();
-   				}
-   		
-   				else if (browzersave.equalsIgnoreCase("Firefox")) {
-   					WebDriverManager.firefoxdriver().setup();
-   					driver = new FirefoxDriver();
-   				}
-   		
-   				else if (browzersave.equalsIgnoreCase("Safari")) {
-   					WebDriverManager.safaridriver().setup();
-   					driver = new SafariDriver();
-   				}
-   		
-   				else {
-   		
-   					WebDriverManager.chromedriver().setup();
-   					driver = new ChromeDriver();
-   					
-   					
-   				}
-   				    driver.manage().window().maximize();
-					driver.manage().deleteAllCookies();
-   		
-   				return driver;
-   	 }
-  	 else {
-   		 return driver;
-   	 }
-  }
-		
+		if (driver == null) {
+			browzersave = PropertyReader.getConfigProperty("BrowserName"); // calling browzename
+
+			if (browzersave.equalsIgnoreCase("chrome")) {
+				WebDriverManager.chromedriver().setup();
+				driver = new ChromeDriver();
+			}
+
+			else if (browzersave.equalsIgnoreCase("Firefox")) {
+				WebDriverManager.firefoxdriver().setup();
+				driver = new FirefoxDriver();
+			}
+
+			else if (browzersave.equalsIgnoreCase("Safari")) {
+				WebDriverManager.safaridriver().setup();
+				driver = new SafariDriver();
+			}
+
+			else {
+
+				WebDriverManager.chromedriver().setup();
+				driver = new ChromeDriver();
+
+			}
+			driver.manage().window().maximize();
+			driver.manage().deleteAllCookies();
+
+			return driver;
+		} else {
+			return driver;
+		}
+	}
+
 	// window maxmize
 	public static void maxmizeWindow() {
 		driver.manage().window().maximize();
@@ -72,32 +68,37 @@ public class JavaBase {
 	}
 
 	// send keys
-	public static void sendkeys(WebElement element,int timeout, String value) {
-	WebElement	element_withWait = new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
+	public static void sendkeys(WebElement element, int timeout, String value) {
+		WebElement element_withWait = new WebDriverWait(driver, timeout)
+				.until(ExpectedConditions.visibilityOf(element));
 		element_withWait.sendKeys(value);
 
 	}
 
 	// click
 	public static void clickOn(WebElement element, int timeout) {
-		WebElement	element_withWait = new WebDriverWait(driver,timeout).until(ExpectedConditions.elementToBeClickable(element));
+		WebElement element_withWait = new WebDriverWait(driver, timeout)
+				.until(ExpectedConditions.elementToBeClickable(element));
 		element_withWait.click();
 
 	}
-	
+
 	public static void clickOn1(WebElement element, int timeout) {
-		WebElement	element_withWait = new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
+		WebElement element_withWait = new WebDriverWait(driver, timeout)
+				.until(ExpectedConditions.visibilityOf(element));
 		element_withWait.click();
 
 	}
-	// click with java excuter
-	public static void clickBy_javaExcutu(WebElement element ,int timeout) {
-		 WebElement element_withWait = new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));             
-	    	 JavascriptExecutor executor = (JavascriptExecutor)driver;	    	
-	    	 executor.executeScript("arguments[0].click();", element_withWait);
-		}	     
 
-		 public static void scrollDown(int position) {
+	// click with java excuter
+	public static void clickBy_javaExcutu(WebElement element, int timeout) {
+		WebElement element_withWait = new WebDriverWait(driver, timeout)
+				.until(ExpectedConditions.visibilityOf(element));
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+		executor.executeScript("arguments[0].click();", element_withWait);
+	}
+
+	public static void scrollDown(int position) {
 		js = (JavascriptExecutor) driver;
 		// js.executeScript("window.scrollBy(0,200)");
 		js.executeScript("window.scrollBy(0,'" + position + "')");
@@ -105,8 +106,9 @@ public class JavaBase {
 	}
 
 	// Dropdown without method visible , value ,visibletext -----
-		 public static void selectOptionFromDropdown(WebElement element, int timeout, String value) {
-		WebElement	element_withWait = new WebDriverWait(driver,  timeout).until(ExpectedConditions.visibilityOf(element));
+	public static void selectOptionFromDropdown(WebElement element, int timeout, String value) {
+		WebElement element_withWait = new WebDriverWait(driver, timeout)
+				.until(ExpectedConditions.visibilityOf(element));
 		Select dropdown = new Select(element_withWait);
 		List<WebElement> allOptions = dropdown.getOptions();
 
@@ -115,29 +117,29 @@ public class JavaBase {
 				options.click();
 				break;
 			}
-			}
-		 }
-	
-	 // mouse hoever
-	 public static void mouseHover( WebElement element,int timeout) {
-			WebElement	 element_withWait = new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));        
-		      Actions actObj=new Actions(driver);
-		      actObj.moveToElement(element_withWait).perform();// for mouse hover action
-		      
-		       }
-	
-	
+		}
+	}
+
+	// mouse hoever
+	public static void mouseHover(WebElement element, int timeout) {
+		WebElement element_withWait = new WebDriverWait(driver, timeout)
+				.until(ExpectedConditions.visibilityOf(element));
+		Actions actObj = new Actions(driver);
+		actObj.moveToElement(element_withWait).perform();// for mouse hover action
+
+	}
+
 	// Random Class
-	 public static void random_EmailId(WebElement element, int timeout, String value) {
-		 WebElement	 element_withWait = new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
-		 Random randomgenerator = new Random();
-		 int randomInt = randomgenerator.nextInt(1000);
-		 System.out.println("Random value are" +randomInt);
-		// driver.findElement( By.xpath("//input[@name='EmailId']")).sendKeys(PropertyReader.getDataProperty("email")+randomInt+"@gmail.com");
-		 element_withWait.sendKeys( randomInt+value);
-	 }
-	
-	
+	public static void random_EmailId(WebElement element, int timeout, String value) {
+		WebElement element_withWait = new WebDriverWait(driver, timeout)
+				.until(ExpectedConditions.visibilityOf(element));
+		Random randomgenerator = new Random();
+		int randomInt = randomgenerator.nextInt(1000);
+		System.out.println("Random value are" + randomInt);
+		// driver.findElement(
+		// By.xpath("//input[@name='EmailId']")).sendKeys(PropertyReader.getDataProperty("email")+randomInt+"@gmail.com");
+		element_withWait.sendKeys(randomInt + value);
+	}
 
 }
 // end class
